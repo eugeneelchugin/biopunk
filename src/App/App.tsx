@@ -1,6 +1,7 @@
 import React from 'react';
 import MoonstoneDecorator from '@enact/moonstone/MoonstoneDecorator';
 import AppBase from './AppBase';
+import './ru.scss';
 
 
 

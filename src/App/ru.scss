@@ -1,0 +1,11 @@
+$ru-font: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+.enact-locale-ru {
+    font-family: $ru-font;
+
+    .heading {
+        .medium {
+            font-family: $ru-font;
+        }
+    }
+}

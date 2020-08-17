@@ -11,11 +11,13 @@ const AppBase = kind({
     publicClassNames: true,
   },
 
-  render: (props:any) => {
+  render: ({className, ...props}:any) => {
     return (
-      <Panels {...props} noCloseButton>
+      <div id="app-container" className={className}>
+        <Panels {...props} noCloseButton>
         <MainPanel />
       </Panels>
+      </div>
     );
   }
 });
